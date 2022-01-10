@@ -16,14 +16,13 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-
 Feature: feature to test search functionality
 
   Scenario: validate google search is working
     Given browser is open
     And user is on google search page
     When user enters text in search box
-    And hits enter
+    And user hits enter
     Then user is navigated to search results
   #Scenario Outline: Title of your scenario outline
     #Given I want to write a step with <name>
